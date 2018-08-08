@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1000px;
+    width: 100%;
+}
+#sortable { list-style-type: none; margin: 0; padding: 0;}
+
+.ui-state-default{
+    max-height: 240px;
+    padding: 10px;
+    margin: 10px auto;
+    border-left: 50px solid #B1132A;
+    border-right: 1px solid #B1132A;
+    border-top: 1px solid #B1132A;
+    border-bottom: 1px solid #B1132A;
+    cursor: move;
+}
+
+.ui-state-highlight{
+    height: 260px;
+    padding: 10px;
+    background-color: rgba(140, 155, 165,0.4);
+    margin-top: 10px;
+}
+.img-responsive{
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
